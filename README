@@ -1,0 +1,30 @@
+=====================================================================
+PETCU MONICA-ALEXANDRA
+333CA - PROIECT PM
+BULL'S EYE - 2019
+=====================================================================
+
+	> GUN.C
+
+		Contine programul incarcat pe placuta pistolului cu
+	laser. Pistolul este format din doua butoane: un trigger si
+	un reset. Triggerul are rolul de a aprinde laserul. Pistolul
+	are 14 gloante ce sunt reprezentate prin leduri RGB. La 
+	fiecare apasare a trigger-ului, gloantele se scad din numarul
+	de leduri aprinde. Cand cartusul este aproape plin, ledurile
+	sunt verzi, atunci cand se ajunge la jumatate ledurile sunt
+	galbene, iar cand aproape se termina ledurile devin rosii.
+	Dupa ce se consuma cele 14 gloante, laserul nu se mai aprinde
+	la apasarea triggerului. In schimb, daca se apasa pe butonul
+	ce se afla pe partea laterala a pistolului (butonul de reset),
+	arma se reincarca si are din nou 14 gloante.
+
+
+	> TARGETS.C
+		Contine programul incarcat pe placuta celor doua
+	tinte. Tintele sunt legate fiecare de cate un servomotor.
+	Programul ridica tintele la inceput pe amandoua, apoi intr-o
+	ordine aleatoate. Exista trei grade de dificultate: usoara,
+	medie si dificila. Dupa fiecare 20 de ridicari ale tintelor
+	(20 la comun), se trece la urmatoarea dificultate, tintele
+	stand mai putin timp ridicate.
